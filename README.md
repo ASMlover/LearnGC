@@ -2,7 +2,4 @@
 ***
 
 ## **Summary**
-  * Garbage collection algorithms learning.
-  * Mark and sweep garbage collecting.
-  * Semispace copying garbage collecting.
-  * Reference counting garbage collecting.
+  * 一些常用的GC算法的简单实现
