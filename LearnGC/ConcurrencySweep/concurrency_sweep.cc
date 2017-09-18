@@ -27,8 +27,6 @@
 #include <algorithm>
 #include <iostream>
 #include <iterator>
-#include <Chaos/Types.h>
-#include <Chaos/Concurrent/CurrentThread.h>
 #include "object.h"
 #include "concurrency_sweep.h"
 
@@ -50,7 +48,7 @@ void ConcurrencySweep::sweeper_closure(void) {
   while (running_) {
     collect();
 
-    Chaos::CurrentThread::sleep_usec(1);
+    Chaos::CurrentThread::sleep_microsec(1);
   }
 }
 

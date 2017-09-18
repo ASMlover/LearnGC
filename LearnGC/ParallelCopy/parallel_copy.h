@@ -30,9 +30,7 @@
 #include <functional>
 #include <memory>
 #include <vector>
-#include <Chaos/UnCopyable.h>
-#include <Chaos/Concurrent/Mutex.h>
-#include <Chaos/Concurrent/Condition.h>
+#include <Chaos/Chaos.h>
 
 namespace gc {
 
